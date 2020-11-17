@@ -1109,7 +1109,8 @@ address {
     left: 41.66666667%;
   }
   .col-md-push-4 {
-    left: 33.33333333%;
+    /*left: 33.33333333%;*/
+    left: auto;
   }
   .col-md-push-3 {
     left: 25%;
