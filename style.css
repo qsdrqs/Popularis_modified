@@ -184,6 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     word-wrap: break-word;
     font-weight: 700;
     letter-spacing: -.02em;
+    margin-bottom: 30px;
 }
 html {
     overflow-x: hidden;
@@ -477,7 +478,7 @@ h1.single-title {
     margin: 0;
 }
 .single-head {
-    margin: 0 auto;
+    margin: 0 auto auto 0;
     max-width: 700px;
     clear: both;
     margin-bottom: 10px;
@@ -564,7 +565,7 @@ select {
     position: relative;
 }
 #sidebar {
-    display: inline-block;
+    display: flow-root;
     max-width: 100%;
     right: auto;
 }
@@ -996,5 +997,9 @@ nav.navigation.post-navigation {
 }
 
 .link {
-    font-size: 5px;
+    font-size: 10px;
+    vertical-align: super;
+    font-style: italic;
+    color: #8e8e8e;
+    margin: 0 0 0 10px;
 }
